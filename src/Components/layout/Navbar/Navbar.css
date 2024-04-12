@@ -1,0 +1,33 @@
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
